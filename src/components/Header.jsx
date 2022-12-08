@@ -10,7 +10,6 @@ export default function Header() {
 
   //functions
   const handleMenu = () => {
-    //hamburguer menu
     if(openMenu === "none") {
       setOpenMenu("block");
     } else {

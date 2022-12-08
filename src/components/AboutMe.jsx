@@ -11,7 +11,11 @@ export default function AboutMe() {
       <div>
         <p>
           Meu nome é{" "}
-          <a href="https://www.instagram.com/iamryaan011/" target={"blank"}>
+          <a
+            href="https://www.instagram.com/iamryaan011/"
+            target={"_blank"}
+            rel={"nofollow"}
+          >
             Ryan Lima
           </a>{" "}
           e eu sou apaixonado no mundo da tecnologia. Há um tempo atrás, eu
@@ -23,8 +27,8 @@ export default function AboutMe() {
         <br />
 
         <p>
-          Hoje em dia tenho conhecimento em diversas tecnologias e frameworks como o JavaScript, ReactJS,
-          Next.js etc.
+          Hoje em dia tenho conhecimento em diversas tecnologias e frameworks
+          como o JavaScript, ReactJS, Next.js etc.
         </p>
       </div>
     </section>
