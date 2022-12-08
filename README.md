@@ -6,9 +6,9 @@
   <p align='center'>
      This web aplication is my own portfolio. Have a submission, about me, my dominant technologies and a 
       footer with my personal data. This website is totally responsive, dinamic and have simple animations.
-    
-    <a href='https://ryan-portfolio-sandy.vercel.app'/>
   </p
+  
+  https://ryan-portfolio-sandy.vercel.app
   
   <div align='center'>
     <div align='center'>
