@@ -4,7 +4,8 @@
   <h2>Introduction</h2>
   
   <p>
-     This web aplication is my own portfolio. Have a submission, about me, my dominant technologies and a footer with my personal data. This website is totally       responsive, dinamic and have simple animations.
+     This web aplication is my own portfolio. Have a submission, about me, my dominant technologies and a 
+      footer with my personal data. This website is totally responsive, dinamic and have simple animations.
   </p
   
   <div align='center'>
