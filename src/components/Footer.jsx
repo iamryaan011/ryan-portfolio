@@ -21,22 +21,28 @@ export default function Footer() {
         <section>
           <article>
             <div>
-              <a href="https://github.com/iamryaan011?tab=repositories" target={"_blank"}>
-
-                  <img
-                    src="https://ymatheusvieira.vercel.app/assets/img/github2.svg"
-                    alt="github logo"
-                  />
+              <a
+                href="https://github.com/iamryaan011?tab=repositories"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                <img
+                  src="https://ymatheusvieira.vercel.app/assets/img/github2.svg"
+                  alt="github logo"
+                />
               </a>
             </div>
 
             <div>
-              <a href="https://www.linkedin.com/in/ryanlima011/" target={"_blank"}>
-                
-                  <img
-                    src="https://ymatheusvieira.vercel.app/assets/img/linkedinff2.svg"
-                    alt="linkeding logo"
-                  />
+              <a
+                href="https://www.linkedin.com/in/ryanlima011/"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                <img
+                  src="https://ymatheusvieira.vercel.app/assets/img/linkedinff2.svg"
+                  alt="linkeding logo"
+                />
               </a>
             </div>
           </article>
