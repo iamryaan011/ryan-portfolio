@@ -7,7 +7,7 @@
      This web aplication is my own portfolio. Have a submission, about me, my dominant technologies and a 
       footer with my personal data. This website is totally responsive, dinamic and have simple animations.
     
-    Acess: <a href='https://ryan-portfolio-sandy.vercel.app'/>
+    <a href='https://ryan-portfolio-sandy.vercel.app'/>
   </p
   
   <div align='center'>
