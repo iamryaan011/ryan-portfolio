@@ -1,0 +1,183 @@
+.Header {
+  display: flex;
+
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+
+  padding: 1em 10%;
+
+  background-color: #3b5998;
+  border-bottom: solid 1px #3b5998;
+
+  width: 100%;
+
+  section {
+    h1 {
+      font-family: "Gamer";
+      font-size: 2.2em;
+
+      color: #fff;
+
+      animation-name: boot;
+      animation-duration: 2s;
+
+      text-shadow: 0px 2px 0px #0000004d;
+    }
+  }
+
+  div {
+    display: none;
+
+    div {
+      background-color: #fff;
+
+      width: 30px;
+      height: 5px;
+
+      margin: 0.25em 0;
+
+      border-radius: 8px;
+
+      box-shadow: 0px 1px 0px 1px #00000026;
+    }
+  }
+
+  div:hover {
+    cursor: pointer;
+
+    div {
+      background-color: #dfe1ee;
+    }
+  }
+
+  nav {
+    animation-name: boot;
+    animation-duration: 2s;
+
+    display: block;
+
+    ul {
+      display: flex;
+
+      flex-direction: row;
+
+      list-style-type: none;
+      li a {
+        text-decoration: none;
+
+        margin: 0 1em;
+
+        color: #fff;
+
+        font-size: 14px;
+      }
+
+      li a:hover {
+        color: #dfe1ee;
+      }
+    }
+  }
+}
+
+/* animations */
+
+@keyframes flip {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+    transition: 0.5s ease;
+  }
+}
+
+/* animation */
+
+@keyframes boot {
+  from {
+    opacity: 0.25;
+  }
+
+  to {
+    transform: rotate(360deg);
+    opacity: 1;
+    transition: 1s;
+  }
+}
+
+/* media queries */
+
+@media (max-width: 800px) {
+  .Header {
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+
+    text-align: center;
+
+    section {
+      h1 {
+      }
+    }
+
+    div {
+      display: block;
+
+      margin-left: 7em;
+
+      div {
+        display: block;
+      }
+    }
+
+    section {
+      display: flex;
+
+      flex-direction: column;
+
+      justify-content: center;
+      align-items: center;
+
+      nav {
+        margin-bottom: -9.5em;
+        margin-right: -6.9em;
+
+        ul {
+          display: flex;
+
+          flex-direction: column;
+
+          justify-content: center;
+          align-items: center;
+          li {
+            padding: 1em;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  .Header {
+    nav {
+      ul {
+        li {
+          div {
+            display: none;
+
+            div {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

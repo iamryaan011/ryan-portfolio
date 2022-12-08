@@ -1,0 +1,60 @@
+/* fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap");
+
+@font-face {
+  font-family: 'Gamer';
+  src: url('../../public/assets/fonts/Gamer.ttf') format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* global configs */
+
+html, body {
+  font-family: 'Montserrat', sans-serif;
+
+  height: 100vh;
+
+  background-color: #5f72a9;
+
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+
+  padding: 0;
+  margin: 0;
+}
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+  width: 10px;
+
+  background-color: #dfe1ee;
+
+  margin: 1em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #808bbae5;
+
+  border-radius: 2px;
+
+  margin: 1em;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #808cba;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: #7684bb;
+}
+
+::-webkit-scrollbar-track {
+  margin: 2px;
+}

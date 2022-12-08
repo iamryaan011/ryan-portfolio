@@ -1,0 +1,96 @@
+.Container {
+  display: flex;
+
+  justify-content: space-between;
+
+  flex-direction: row;
+}
+
+.Submission {
+  display: flex;
+
+  flex-direction: column;
+
+  margin: 5em 1em;
+
+  font-size: 2em;
+
+  text-align: center;
+
+  article {
+    background-color: #5f72a9;
+
+    width: 100%;
+
+    padding: 1em;
+
+    border-radius: 8px;
+    border: 5px solid #5f72a9;
+
+    animation-name: boot;
+    animation-duration: 2s;
+
+    p {
+      color: #fff;
+
+      font-weight: 400;
+      font-size: 0.8em;
+
+      a {
+        color: #fff;
+
+        font-weight: 600;
+        font-size: 2em;
+
+        text-decoration: none;
+
+        text-shadow: 0px 2px 0px #0000004d;
+      }
+
+      span {
+        font-size: 1em;
+      }
+    }
+  }
+}
+
+/* animations */
+
+@keyframes boot {
+  from {
+    opacity: 0.25;
+  }
+
+  to {
+    opacity: 1;
+    transition: 1s;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+/* media queries */
+
+@media (max-width: 760px) {
+  .Submission {
+    article {
+      font-size: 0.9em;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .Submission {
+    article {
+      font-size: 0.8em;
+    }
+  }
+}

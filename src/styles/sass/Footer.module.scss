@@ -1,0 +1,113 @@
+.Footer {
+  padding: 0.5em 5% 1.4em 5%;
+
+  color: #fff;
+  background-color: #5f72a9;
+
+  section {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    animation-name: boot;
+    animation-duration: 2s;
+
+    article {
+      font-size: 0.9em;
+
+      letter-spacing: 1px;
+
+      line-height: 1.3em;
+
+      span {
+        font-style: italic;
+      }
+
+      p {
+        a {
+          color: #fff;
+
+          font-weight: 600;
+
+          text-decoration: none;
+        }
+
+        a:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    section {
+      article {
+        display: flex;
+
+        flex-direction: row;
+        div {
+          img {
+            width: 45px;
+
+            margin: 0 0.5em;
+          }
+
+          img:hover {
+            animation-name: flip;
+            animation-duration: 1s;
+
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* animations */
+
+@keyframes flip {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+    transition: 0.5s;
+  }
+}
+
+@keyframes boot {
+  from {
+    opacity: 0.25;
+  }
+
+  to {
+    opacity: 1;
+    transition: 1s;
+  }
+}
+
+/* media queries */
+
+@media (max-width: 600px) {
+  .Footer {
+    padding: 0.5em 2% 1.4em 2%;
+
+    section {
+      article {
+        font-size: 0.8em;
+      }
+
+      section {
+        article {
+          div {
+            img {
+              width: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
