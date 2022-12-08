@@ -16,7 +16,7 @@ export default function Skills() {
           <a
             href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"
             target={"_blank"}
-            rel="noopener noreferrer"
+            rel="noopener"
           >
             <img
               src="https://ymatheusvieira.vercel.app/assets/img/html2.svg"
@@ -27,7 +27,7 @@ export default function Skills() {
           <a
             href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"
             target={"_blank"}
-            rel="noopener noreferrerr"
+            rel="noopener"
           >
             <img
               src="https://ymatheusvieira.vercel.app/assets/img/css2.svg"
@@ -38,7 +38,7 @@ export default function Skills() {
           <a
             href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Introduction"
             target={"_blank"}
-            rel="noopener noreferrer"
+            rel="noopener"
           >
             <img
               src="https://ymatheusvieira.vercel.app/assets/img/js2.svg"
@@ -49,7 +49,7 @@ export default function Skills() {
           <a
             href="https://pt-br.reactjs.org/docs/getting-started.html"
             target={"_blank"}
-            rel="noopener noreferrer"
+            rel="noopener"
           >
             <img
               src="https://ymatheusvieira.vercel.app/assets/img/react2.svg"
@@ -60,7 +60,7 @@ export default function Skills() {
           <a 
             href="https://styled-components.com/docs" 
             target={"_blank"}
-            rel="noopener noreferrerr"
+            rel="noopener"
           >
             <img
               src="https://ymatheusvieira.vercel.app/assets/img/styled 2.svg"
@@ -71,7 +71,7 @@ export default function Skills() {
           <a 
             href="https://sass-lang.com/documentation/" 
             target={"_blank"}
-            rel="noopener noreferrer"
+            rel="noopener"
           >
             <img
               src="https://ymatheusvieira.vercel.app/assets/img/sass2.svg"

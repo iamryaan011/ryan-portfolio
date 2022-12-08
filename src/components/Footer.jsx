@@ -12,7 +12,7 @@ export default function Footer() {
           <br />
           <p>
             Feito por{" "}
-            <a href="https://www.facebook.com/ryanlimaaaa/" target={"_blank"}>
+            <a href="https://www.facebook.com/ryanlimaaaa/" target={"_blank"} rel="noopener">
               Ryan Lima
             </a>
           </p>
@@ -24,7 +24,7 @@ export default function Footer() {
               <a
                 href="https://github.com/iamryaan011?tab=repositories"
                 target={"_blank"}
-                rel="noopener noreferrer"
+                rel="noopener"
               >
                 <img
                   src="https://ymatheusvieira.vercel.app/assets/img/github2.svg"
@@ -37,7 +37,7 @@ export default function Footer() {
               <a
                 href="https://www.linkedin.com/in/ryanlima011/"
                 target={"_blank"}
-                rel="noopener noreferrer"
+                rel="noopener"
               >
                 <img
                   src="https://ymatheusvieira.vercel.app/assets/img/linkedinff2.svg"
