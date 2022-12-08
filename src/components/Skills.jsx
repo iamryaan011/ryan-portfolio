@@ -10,7 +10,7 @@ export default function Skills() {
       <h1>Habilidades</h1>
 
       <section>
-        <p>/* Clique na imagem para ser redirecionado a sua documentação */</p>
+        <p> Clique na imagem para ser redirecionado a sua documentação </p>
 
         <article>
           <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">
