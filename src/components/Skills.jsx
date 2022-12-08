@@ -16,66 +16,78 @@ export default function Skills() {
           <a
             href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"
             target={"_blank"}
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
-            <img
+            <Image
               src="https://ymatheusvieira.vercel.app/assets/img/html2.svg"
               alt="html logo"
+              width={85}
+              height={85}
             />
           </a>
 
           <a
             href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"
             target={"_blank"}
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
-            <img
+            <Image
               src="https://ymatheusvieira.vercel.app/assets/img/css2.svg"
               alt="css logo"
+              width={85}
+              height={85}
             />
           </a>
 
           <a
             href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Introduction"
             target={"_blank"}
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
-            <img
+            <Image
               src="https://ymatheusvieira.vercel.app/assets/img/js2.svg"
               alt="javascript logo"
+              width={85}
+              height={85}
             />
           </a>
 
           <a
             href="https://pt-br.reactjs.org/docs/getting-started.html"
             target={"_blank"}
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
-            <img
+            <Image
               src="https://ymatheusvieira.vercel.app/assets/img/react2.svg"
               alt="react logo"
+              width={85}
+              height={85}
             />
           </a>
 
           <a 
             href="https://styled-components.com/docs" 
             target={"_blank"}
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
-            <img
+            <Image
               src="https://ymatheusvieira.vercel.app/assets/img/styled 2.svg"
               alt="styled components logo"
+              width={85}
+              height={85}
             />
           </a>
 
           <a 
             href="https://sass-lang.com/documentation/" 
             target={"_blank"}
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
-            <img
+            <Image
               src="https://ymatheusvieira.vercel.app/assets/img/sass2.svg"
               alt="sass logo"
+              width={85}
+              height={85}
             />
           </a>
         </article>

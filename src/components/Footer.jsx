@@ -24,7 +24,7 @@ export default function Footer() {
               <a
                 href="https://github.com/iamryaan011?tab=repositories"
                 target={"_blank"}
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 <img
                   src="https://ymatheusvieira.vercel.app/assets/img/github2.svg"
@@ -37,7 +37,7 @@ export default function Footer() {
               <a
                 href="https://www.linkedin.com/in/ryanlima011/"
                 target={"_blank"}
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 <img
                   src="https://ymatheusvieira.vercel.app/assets/img/linkedinff2.svg"
