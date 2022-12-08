@@ -11,17 +11,10 @@ export default function AboutMe() {
       <div>
         <p>
           Meu nome é{" "}
-          <a
-            href="https://www.instagram.com/iamryaan011/"
-            target={"_blank"}
-            rel={"nofollow"}
-          >
-            Ryan Lima
-          </a>{" "}
-          e eu sou apaixonado no mundo da tecnologia. Há um tempo atrás, eu
-          tomei a iniciativa de começar a estudar programação e decidi que a
-          minha vida seria isso. Isso é o que eu gosto e é o que eu quero pra
-          minha vida.
+          <a href="https://www.instagram.com/iamryaan011/">Ryan Lima</a> e eu
+          sou apaixonado no mundo da tecnologia. Há um tempo atrás, eu tomei a
+          iniciativa de começar a estudar programação e decidi que a minha vida
+          seria isso. Isso é o que eu gosto e é o que eu quero pra minha vida.
         </p>
 
         <br />

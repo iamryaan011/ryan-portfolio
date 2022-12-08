@@ -10,7 +10,7 @@ export default function Header() {
 
   //functions
   const handleMenu = () => {
-    if(openMenu === "none") {
+    if (openMenu === "none") {
       setOpenMenu("block");
     } else {
       setOpenMenu("none");
